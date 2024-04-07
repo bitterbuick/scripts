@@ -5,7 +5,7 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 from datetime import datetime
 
 # Path to your copy of the Firefox places.sqlite database
-DB_PATH = '/home/adam/.librewolf/fqinuves.default-default/places.sqlite'
+DB_PATH = '/path/to/your/db'
 
 def is_link_alive(url):
     try:
